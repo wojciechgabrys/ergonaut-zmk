@@ -68,7 +68,7 @@ layers:
   - (
   - )
   - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
+  - Boot
   - '1'
   - '2'
   - '3'
@@ -122,7 +122,7 @@ layers:
   - ↓
   - Page Down
   - Pause Break
-  - Alt
+  - Boot
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
