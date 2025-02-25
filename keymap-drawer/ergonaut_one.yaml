@@ -1,6 +1,7 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: ']', h: Gui}
+  - ESCAPE
   - Q
   - W
   - E
@@ -11,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - '['
-  - {t: '`', h: Ctrl}
+  - BACKSPACE
+  - {t: ↹, h: Ctrl}
   - A
   - S
   - D
@@ -23,8 +24,8 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - ''''
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -35,13 +36,13 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: NUM}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: SYM}
-  - {t: Esc, h: SYM}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: NUM}
+  - RIGHT SHIFT
+  - LEFT COMMAND
+  - {t: BACKSPACE, h: SYM}
+  - ␣
+  - ENTER
+  - {t: ⌫, h: NUM}
+  - RIGHT ALT
   SYM:
   - {t: F1, h: Gui}
   - F2
@@ -80,8 +81,8 @@ layers:
   - '0'
   - Alt
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,11 +123,11 @@ layers:
   - Page Down
   - Pause Break
   - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ADJ:
   - Boot
@@ -165,9 +166,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
-  - ''
-  - {type: held}
-  - ''
   - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - ''
+  - {type: held}
   - {t: ▽, type: trans}
