@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT COMMAND
-  - {t: BACKSPACE, h: SYM}
+  - {t: BACKSPACE, h: ADJ}
   - ␣
   - ENTER
-  - {t: ⌫, h: NUM}
+  - {t: ⌫, h: ADJ}
   - RIGHT ALT
   SYM:
   - {t: F1, h: Gui}
@@ -81,7 +81,7 @@ layers:
   - '0'
   - Alt
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ADJ:
   - Boot
@@ -170,5 +170,5 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
