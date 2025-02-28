@@ -67,7 +67,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '-', h: Ctrl}
+  - '-'
   - Boot
   - F1
   - F2
@@ -79,7 +79,7 @@ layers:
   - F8
   - F9
   - F10
-  - Alt
+  - '='
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
