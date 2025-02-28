@@ -155,7 +155,6 @@ layers:
   - BT 1
   - BT CLR
   - Reset
-  - '&reset'
   - ''
   - ''
   - ''
@@ -164,7 +163,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&reset'
+  - ''
+  - ''
   - Reset
   - {t: ▽, type: trans}
   - {type: held}
