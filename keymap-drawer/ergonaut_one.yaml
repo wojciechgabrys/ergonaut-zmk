@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - ESCAPE
+  - ↹
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - {t: ↹, h: Ctrl}
+  - {t: ESCAPE, h: Ctrl}
   - A
   - S
   - D
@@ -92,10 +92,10 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - KP MINUS
-  - Vol Up
+  - (
+  - )
   - Home
-  - Print Scrn
+  - UP ARROW
   - Page Up
   - SLCK
   - CLCK
@@ -104,10 +104,10 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - KP PLUS
-  - MUTE
+  - '['
+  - ']'
   - ←
-  - ↑
+  - ↓
   - →
   - Insert
   - {t: APP, h: Ctrl}
@@ -116,13 +116,13 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - KP DOT
-  - Vol Down
+  - '{'
+  - '}'
   - End
-  - ↓
+  - ''
   - Page Down
   - Pause Break
-  - Boot
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,7 +133,7 @@ layers:
   - Boot
   - '&studio_unlock'
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -154,7 +154,7 @@ layers:
   - BT 2
   - BT 1
   - BT CLR
-  - {t: Reset, type: held}
+  - Reset
   - ''
   - ''
   - ''
@@ -167,13 +167,15 @@ layers:
   - ''
   - Reset
   - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {type: held}
-  - ''
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [3, 38, 24]
-  k: {t: ADJ, h: sticky}
+  k: {t: ADJ, h: toggle}
 - p: [8, 35, 39]
-  k: {t: ADJ, h: sticky}
+  k: {t: ADJ, h: toggle}
+- p: [0, 1]
+  k: ESCAPE
