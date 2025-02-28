@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT COMMAND
-  - {t: BACKSPACE, h: ADJ}
+  - ADJ
   - ␣
   - ENTER
-  - {t: ⌫, h: ADJ}
+  - ADJ
   - RIGHT ALT
   SYM:
   - {t: F1, h: Gui}
@@ -155,6 +155,7 @@ layers:
   - BT 1
   - BT CLR
   - Reset
+  - '&reset'
   - ''
   - ''
   - ''
@@ -163,8 +164,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&reset'
   - Reset
   - {t: ▽, type: trans}
   - {type: held}
