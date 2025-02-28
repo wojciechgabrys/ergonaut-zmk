@@ -66,9 +66,9 @@
         raise_layer {
             display-name = "NUM";
             bindings = <
-&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HOME  &kp UP_ARROW  &kp PG_UP  &kp SLCK         &kp CLCK
-&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT  &kp DOWN      &kp RIGHT  &kp INS          &mt RCTRL K_APP
-&kp LALT         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp END   &none         &kp PG_DN  &kp PAUSE_BREAK  &bootloader
+&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HOME  &kp UP_ARROW      &kp PG_UP  &kp C_VOLUME_UP    &kp C_NEXT
+&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT  &kp DOWN          &kp RIGHT  &kp C_VOLUME_DOWN  &kp C_PREV
+&kp LALT         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp END   &kp C_PLAY_PAUSE  &kp PG_DN  &kp C_MUTE         &bootloader
                                              &trans     &trans     &trans                &trans                 &trans    &trans
             >;
         };

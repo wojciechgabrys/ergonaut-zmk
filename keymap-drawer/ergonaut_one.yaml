@@ -97,8 +97,8 @@ layers:
   - Home
   - UP ARROW
   - Page Up
-  - SLCK
-  - CLCK
+  - VOLUME UP
+  - ⏭️
   - {t: '=', h: Ctrl}
   - KP MULTIPLY
   - KP 4
@@ -109,8 +109,8 @@ layers:
   - ←
   - ↓
   - →
-  - Insert
-  - {t: APP, h: Ctrl}
+  - VOLUME DOWN
+  - ⏮️
   - Alt
   - KP 0
   - KP 1
@@ -119,9 +119,9 @@ layers:
   - '{'
   - '}'
   - End
-  - ''
+  - PLAY PAUSE
   - Page Down
-  - Pause Break
+  - MUTE
   - Boot
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
