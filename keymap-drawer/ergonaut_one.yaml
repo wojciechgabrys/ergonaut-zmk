@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT COMMAND
-  - ADJ
+  - {t: BACKSPACE, h: SYM}
   - ␣
   - ENTER
-  - ADJ
+  - {t: BACKSPACE, h: NUM}
   - RIGHT ALT
   SYM:
   - {t: F1, h: Gui}
@@ -81,7 +81,7 @@ layers:
   - '0'
   - Alt
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,13 +127,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   ADJ:
   - Boot
   - '&studio_unlock'
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -154,7 +154,7 @@ layers:
   - BT 2
   - BT 1
   - BT CLR
-  - Reset
+  - {t: Reset, type: held}
   - ''
   - ''
   - ''
@@ -167,8 +167,13 @@ layers:
   - ''
   - Reset
   - {t: ▽, type: trans}
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [3, 38, 24]
+  k: {t: ADJ, h: sticky}
+- p: [8, 35, 39]
+  k: {t: ADJ, h: sticky}
