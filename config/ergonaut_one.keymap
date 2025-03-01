@@ -17,7 +17,7 @@
 
         config {
             if-layers = <1 2>;
-            then-layer = <3>;
+            then-layer = <5>;
         };
     };
 
@@ -25,12 +25,12 @@
         compatible = "zmk,combos";
 
         configl {
-            bindings = <&to 3>;
+            bindings = <&to 5>;
             key-positions = <3 38 24>;
         };
 
         configr {
-            bindings = <&to 3>;
+            bindings = <&to 5>;
             key-positions = <8 35 39>;
         };
 
@@ -50,6 +50,25 @@
 &mt LCTRL ESCAPE  &kp A  &mt LEFT_SHIFT S  &mt LEFT_CONTROL D  &mt LEFT_ALT F   &mt LEFT_COMMAND G  &mt RIGHT_SHIFT H  &mt RIGHT_CONTROL J  &mt LEFT_ALT K  &mt RIGHT_COMMAND L  &kp SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z  &kp X             &kp C               &kp V            &kp B               &kp N              &kp M                &kp COMMA       &kp DOT              &kp FSLH  &kp RIGHT_SHIFT
                                            &kp LEFT_COMMAND    &lt 1 BACKSPACE  &kp SPACE           &kp ENTER          &lt 2 BACKSPACE      &kp RIGHT_ALT
+            >;
+        };
+
+        new_lower {
+            display-name = "LOW";
+            bindings = <
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6    &kp N7    &kp N8  &kp N9     &kp N0   &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6    &kp F7    &kp F8  &kp F9     &kp F10  &trans
+                        &trans  &trans  &trans  &trans    &trans    &trans
+            >;
+        };
+
+        new_raise {
+            bindings = <
+&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
+&trans  &trans        &trans      &trans         &trans        &trans         &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH      &kp GRAVE
+&trans  &trans        &trans      &trans         &trans        &trans         &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)  &kp LS(TILDE)
+                                  &trans         &trans        &trans         &trans         &trans        &trans
             >;
         };
 
