@@ -65,10 +65,10 @@
 
         new_raise {
             bindings = <
-&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
-&trans  &trans        &trans      &trans         &trans        &trans         &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH      &kp GRAVE
-&trans  &trans        &trans      &trans         &trans        &trans         &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)  &kp LS(TILDE)
-                                  &trans         &trans        &trans         &trans         &trans        &trans
+&kp GRAVE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
+&kp TILDE  &trans        &trans      &trans         &trans        &trans         &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH      &kp GRAVE
+&trans     &trans        &trans      &trans         &trans        &trans         &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)  &kp LS(TILDE)
+                                     &trans         &trans        &trans         &trans         &trans        &trans
             >;
         };
 
