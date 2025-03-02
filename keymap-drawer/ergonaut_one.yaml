@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ADJ, h: sticky}
+  - new_raise
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ADJ, h: sticky}
+  - LOW
   - {type: held}
   - {t: ▽, type: trans}
   SYM:
@@ -254,9 +254,9 @@ layers:
   - Reset
   - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
-  - ''
   - {t: ▽, type: trans}
+  - ''
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [3, 38, 24]
