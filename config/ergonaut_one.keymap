@@ -66,8 +66,8 @@
         new_raise {
             bindings = <
 &kp GRAVE  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
-&kp TILDE  &trans        &trans      &trans         &trans        &trans         &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH      &kp GRAVE
-&trans     &trans        &trans      &trans         &trans        &trans         &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)  &kp LS(TILDE)
+&kp TILDE  &trans        &trans      &trans         &trans        &trans         &kp MINUS      &kp EQUAL     &kp BSLH      &kp LBKT      &kp RBKT      &kp GRAVE
+&trans     &trans        &trans      &trans         &trans        &trans         &kp LS(UNDER)  &kp LS(PLUS)  &kp PIPE      &kp LBRC      &kp RBRC      &kp LS(TILDE)
                                      &trans         &trans        &trans         &trans         &trans        &trans
             >;
         };
