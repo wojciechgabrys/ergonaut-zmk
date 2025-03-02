@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - new_raise
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LOW
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   SYM:
@@ -217,45 +217,45 @@ layers:
   - {t: ▽, type: trans}
   ADJ:
   - Boot
-  - '&studio_unlock'
+  - Reset
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&studio_unlock'
   - Boot
+  - ''
+  - ''
+  - PREVIOUS
+  - ⏭️
+  - PLAY PAUSE
   - BT CLR
   - BT 1
   - BT 2
   - BT 3
   - BT 4
   - BT 5
-  - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
-  - BT CLR
   - Reset
   - ''
   - ''
   - ''
   - ''
+  - VOLUME UP
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - Reset
+  - ''
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - VOLUME DOWN
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
 combos:
