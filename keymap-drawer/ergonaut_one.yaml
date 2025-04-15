@@ -308,5 +308,3 @@ combos:
   k: {t: ADJ, h: toggle}
 - p: [0, 1]
   k: ESCAPE
-- p: [0, 24]
-  k: {t: LCTL, s: LSFT}

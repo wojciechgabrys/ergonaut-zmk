@@ -44,20 +44,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
-
-        Hyper {
-            bindings = <&behavior_hyper>;
-            key-positions = <0 24>;
-        };
-    };
-
-    behaviors {
-        behavior_hyper: behavior_hyper {
-            compatible = "zmk,behavior-mod-morph";
-            label = "HYPER";
-            #binding-cells = <0>;
-            bindings = <&kp LCTL>, <&kp LSFT>, <&kp LALT>, <&kp LGUI>;
-        };
     };
 
     keymap {
