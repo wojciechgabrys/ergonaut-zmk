@@ -15,14 +15,14 @@ layers:
   - BACKSPACE
   - {t: ESCAPE, h: Ctrl}
   - A
-  - {t: S, h: LEFT SHIFT}
-  - {t: D, h: LEFT CONTROL}
-  - {t: F, h: LEFT ALT}
-  - {t: G, h: LEFT COMMAND}
-  - {t: H, h: RIGHT SHIFT}
-  - {t: J, h: RIGHT CONTROL}
-  - {t: K, h: LEFT ALT}
-  - {t: L, h: RIGHT COMMAND}
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
   - ;
   - ''''
   - LEFT SHIFT
@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT COMMAND
-  - {t: BACKSPACE, h: LOW}
+  - LOW
   - ␣
   - ENTER
-  - {t: BACKSPACE, h: new_raise}
+  - new_raise
   - RIGHT ALT
   LOW:
   - {t: ▽, type: trans}
@@ -258,6 +258,49 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  Homerow mods:
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BACKSPACE
+  - {t: ESCAPE, h: Ctrl}
+  - A
+  - {t: S, h: LEFT SHIFT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT ALT}
+  - {t: G, h: LEFT COMMAND}
+  - {t: H, h: RIGHT SHIFT}
+  - {t: J, h: RIGHT CONTROL}
+  - {t: K, h: LEFT ALT}
+  - {t: L, h: RIGHT COMMAND}
+  - ;
+  - ''''
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - LEFT COMMAND
+  - {t: BACKSPACE, h: LOW}
+  - ␣
+  - ENTER
+  - {t: BACKSPACE, h: new_raise}
+  - RIGHT ALT
 combos:
 - p: [3, 38, 24]
   k: {t: ADJ, h: toggle}
@@ -265,3 +308,5 @@ combos:
   k: {t: ADJ, h: toggle}
 - p: [0, 1]
   k: ESCAPE
+- p: [0, 24]
+  k: ''
