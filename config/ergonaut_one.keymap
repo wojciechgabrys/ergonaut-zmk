@@ -55,10 +55,8 @@
         behavior_hyper: behavior_hyper {
             compatible = "zmk,behavior-mod-morph";
             label = "HYPER";
-            bindings = <&none>, <&none>;
-
             #binding-cells = <0>;
-            mods = <(MOD_LCTL|MOD_LALT|MOD_LSFT|MOD_LGUI)>;
+            bindings = <&kp LCTL>, <&kp LSFT>, <&kp LALT>, <&kp LGUI>;
         };
     };
 

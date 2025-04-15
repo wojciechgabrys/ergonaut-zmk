@@ -309,4 +309,4 @@ combos:
 - p: [0, 1]
   k: ESCAPE
 - p: [0, 24]
-  k: ''
+  k: {t: LCTL, s: LSFT}
